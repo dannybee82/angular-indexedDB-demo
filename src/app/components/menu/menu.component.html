@@ -1,0 +1,23 @@
+<nav class="container-flex-row ">    
+    <ul>
+        <li>
+            <button type="button" mat-raised-button color="primary" [routerLink]="['/']">
+                <mat-icon>home</mat-icon>
+                <span>Home</span>
+            </button>
+        </li>
+        <li>
+            <button type="button" mat-raised-button color="primary" [routerLink]="['/all-persons-promises-demo']">
+                <mat-icon>people</mat-icon>
+                <span>Persons - Promises Demo</span>
+            </button>
+        </li>
+        <li>
+            <button type="button" mat-raised-button color="primary" [routerLink]="['/all-persons-observables-demo']">
+                <mat-icon>people_alt</mat-icon>
+                <span>Persons - Observables Demo</span>
+            </button>
+        </li>
+    </ul>
+</nav>
+<router-outlet></router-outlet>

@@ -1,0 +1,45 @@
+@use "../node_modules/ngx-toastr/toastr";
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.fx-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.fx-row {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;   
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.row {
+    width: 100%;
+}
+
+.mt-1 {
+    margin-top: 16px;
+}
+
+.p-1 {
+    padding: 16px;
+}
+
+.p-custom {
+    padding: 16px 0 0 16px;
+}
+
+table thead tr th {
+    text-align: left!important;
+}
