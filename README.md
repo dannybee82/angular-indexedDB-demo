@@ -12,7 +12,7 @@ See the images in the root of this project for examples.
 
 ## **Application**
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.1.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.2.
 
 In this application CRUD-operations to **indexedDB** work with either Promises and Observables.
 
@@ -39,3 +39,13 @@ _ng serve --open_
 or shorter:
 
 _ng s --o_
+
+### **Changelog:**
+
+_June 2025_
+
+\- Upgrade to Angular 20. 
+
+\- Removed unnecessary package _@angular/platform-browser-dynamic_
+
+\- Some small changes.

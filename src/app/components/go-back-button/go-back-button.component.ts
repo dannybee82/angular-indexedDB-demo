@@ -5,7 +5,6 @@ import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-go-back-button',
-  standalone: true,
   imports: [
     MatButton,
     MatIcon

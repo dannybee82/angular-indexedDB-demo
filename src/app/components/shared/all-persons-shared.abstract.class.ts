@@ -8,11 +8,11 @@ import { ToastrService } from "ngx-toastr";
 })
 export abstract class AllPersonsShared implements OnInit {
 
-    allPersons: WritableSignal<Person[]> = signal([]);
-    isUpdateMode: WritableSignal<boolean> = signal(false);
+    protected allPersons: WritableSignal<Person[]> = signal([]);
+    protected isUpdateMode: WritableSignal<boolean> = signal(false);
     protected _personToUpdate: WritableSignal<Person | undefined> = signal(undefined);
 
-    personForm: UntypedFormGroup = new FormGroup({});
+    protected personForm: UntypedFormGroup = new FormGroup({});
 
     protected fb = inject(FormBuilder);
     protected toastr = inject(ToastrService);
