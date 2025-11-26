@@ -12,7 +12,7 @@ See the images in the root of this project for examples.
 
 ## **Application**
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.2.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.0.
 
 In this application CRUD-operations to **indexedDB** work with either Promises and Observables.
 
@@ -23,6 +23,8 @@ Further, this application can add and update persons, which will be stored in **
 The data is persistent between page navigations and page reloads.
 
 ## Installation + run app
+
+**Angular 21** needs a **Node.js** version of at least _20.19.0_
 
 **Command to install**
 
@@ -41,6 +43,17 @@ or shorter:
 _ng s --o_
 
 ### **Changelog:**
+
+_November 2025_
+
+\- Upgrade to _Angular 21_ and upgraded other packages.
+
+*   Removed deprecated _Karma_ and installed _Vitest._
+*   Migrated _Jasmine_ tests to _Vitest_ tests for future use (command: **ng generate refactor-jasmine-vitest**).
+
+\- Migration to _Zoneless_ - (No use of _zone.js_ and removed all references)
+
+\- Various minor changes.
 
 _June 2025_
 
